@@ -1,10 +1,10 @@
 name: Aqua32 Server
-version: "0.8.40"
+version: 0.8.40
 slug: aqua32_server
 description: Suivi de l'aquarium et import vérifié des analyses dans SQLite
 arch:
-  - aarch64
-  - amd64
+- aarch64
+- amd64
 startup: application
 boot: auto
 init: false
@@ -16,16 +16,16 @@ panel_admin: true
 options:
   mqtt_host: core-mosquitto
   mqtt_port: 1883
-  mqtt_username: ""
-  mqtt_password: ""
+  mqtt_username: ''
+  mqtt_password: ''
   mqtt_tls: false
   influx_url: http://influxdb:8086
-  influx_org: ""
-  influx_bucket: ""
-  influx_token: ""
-  esp_url: ""
-  esp_certificate_sha256: ""
-  esp_journal_password: ""
+  influx_org: ''
+  influx_bucket: ''
+  influx_token: ''
+  esp_url: ''
+  esp_certificate_sha256: ''
+  esp_journal_password: ''
   lcd_trends_enabled: true
 schema:
   mqtt_host: str
