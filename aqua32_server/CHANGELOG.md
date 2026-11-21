@@ -1,3 +1,9 @@
+## 0.8.58
+
+- Curseurs de 0 à 100 % pour les deux rampes sur le tableau de bord, avec application explicite et retour au programme.
+- Graphique combiné avec lecture au survol sur le tableau de bord et deux tracés synchronisés dans l’historique. Les repères horizontaux indiquent les cibles min/max. Les transitions du planning restent visibles.
+- Mise à jour habituelle avec conservation des données.
+
 ## 0.8.57
 
 - Jauges pour toutes les cartes d’analyse. Une valeur sous le seuil de détection est représentée à zéro et comparée aux cibles sur le tableau de bord. La notation et les données enregistrées sont conservées.
