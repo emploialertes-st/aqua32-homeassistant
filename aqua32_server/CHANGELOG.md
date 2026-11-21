@@ -1,3 +1,7 @@
+## 0.8.56
+
+- Refonte du tableau de bord : état du bac, mesures, commandes, tâches, analyses avec repères de cible et graphique. Disposition adaptée aux écrans étroits. Mise à jour habituelle avec conservation des données.
+
 ## 0.8.55
 
 - Flowgrow : import local enrichi des plages pH/KH/GH disponibles, températures de tolérance et optimale séparées, CO₂, NO₃, PO₄, potassium et fer, taxonomie, origine, croissance, multiplication et autres caractéristiques structurées publiées. Six fiches plantes préchargées actualisées ; source et date conservées. Aucune valeur inventée lorsqu’une information manque.
@@ -546,6 +550,3 @@
 - Abonnements MQTT existants ; aucun pilotage ni publication.
 - Requêtes InfluxDB directes bornées et mises en cache.
 - Initialisation SQLite persistante sans import utilisateur.
-
-
-
