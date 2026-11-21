@@ -1,3 +1,12 @@
+## 0.8.54
+
+- Légende des seuils température/pH, min/max et chauffage repliable, fermée par défaut et placée immédiatement sous les graphiques.
+- Barre supérieure limitée à Aqua32 et sa version ; titres des pages dans leur contenu. Police, taille et alignement des intitulés de menus et sous-menus harmonisés.
+- Atlas réorganisé sans zones de défilement internes : sélection en liste de boutons, descriptions complètes et édition intégrée à la page. Les données et références restent accessibles.
+- Cibles de l’Atlas : blocages explicites près du bouton Appliquer, motifs cumulés, espèces concernées et raccourcis pour vérifier leurs fiches. Les validations et sauvegardes avant application sont conservées.
+- Outils d’import des anciennes fiches et d’entretien FishBase conservés dans une rubrique avancée en bas de page. Aucune suppression de fiche automatique liée à cette refonte.
+- Mise à jour habituelle depuis Home Assistant. Analyses, fiches, images et paramètres conservés.
+
 ## 0.8.53
 
 - Repères verticaux des horaires d’éclairage et de la prise CO₂ sur les graphiques du tableau de bord, température/pH/chauffage et CO₂. Horaires du planning actuel en Europe/Paris, avec début/fin, jours choisis, plages de nuit et changements d’heure. Les forçages manuels et les anciens plannings ne sont pas reconstitués.
