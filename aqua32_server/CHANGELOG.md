@@ -1,3 +1,13 @@
+## 0.8.55
+
+- Flowgrow : import local enrichi des plages pH/KH/GH disponibles, températures de tolérance et optimale séparées, CO₂, NO₃, PO₄, potassium et fer, taxonomie, origine, croissance, multiplication et autres caractéristiques structurées publiées. Six fiches plantes préchargées actualisées ; source et date conservées. Aucune valeur inventée lorsqu’une information manque.
+- Atlas : affichage des références détaillées et bouton visible « Copier / actualiser depuis Flowgrow ». Les fiches déjà copiées dans la base peuvent être actualisées avec ce bouton. Les conditions, notes, sélections et cibles personnelles restent inchangées.
+- Validation des conditions regroupée dans un encadré explicite avec « Enregistrer et valider les conditions ». Le GH peut rester vide ; les nouvelles références ne sont pas validées ni appliquées automatiquement.
+- Graphiques : cartes de hauteur naturelle, dates/heures sur deux lignes, étiquettes de seuils contenues dans le cadre et repères horaires disposés sans chevauchement. Les repères sans place suffisante restent consultables dans la légende détaillée.
+- Rappels : compteur « 1 analyse hors limite » / « X analyses hors limites », détails des valeurs, seuils et dates dans un encart au survol, au clavier ou au toucher. Les seuils de rappel restent distincts des cibles.
+- Suppression du titre supplémentaire « Aqua » du tableau de bord, sans modifier le nom du profil enregistré.
+- Mise à jour habituelle depuis Home Assistant. Analyses, fiches, images, conditions validées et paramètres conservés. Aucun transfert ni migration manuelle de données.
+
 ## 0.8.54
 
 - Légende des seuils température/pH, min/max et chauffage repliable, fermée par défaut et placée immédiatement sous les graphiques.
