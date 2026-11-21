@@ -1,3 +1,7 @@
+## 0.8.57
+
+- Jauges pour toutes les cartes d’analyse. Une valeur sous le seuil de détection est représentée à zéro et comparée aux cibles sur le tableau de bord. La notation et les données enregistrées sont conservées.
+
 ## 0.8.56
 
 - Refonte du tableau de bord : état du bac, mesures, commandes, tâches, analyses avec repères de cible et graphique. Disposition adaptée aux écrans étroits. Mise à jour habituelle avec conservation des données.
