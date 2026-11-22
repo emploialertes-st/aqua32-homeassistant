@@ -1,3 +1,7 @@
+## 0.8.65
+
+- Corrige les poignées de réorganisation sur mobile. Elles sont masquées à l’ouverture et restent superposées aux cartes en mode édition, sans ajouter de ligne. La disposition enregistrée est conservée.
+
 ## 0.8.64
 
 - Réorganisation du tableau de bord via une icône discrète en bas à droite. Les poignées apparaissent en bordure des tuiles, sans agrandir les cartes. La disposition enregistrée est conservée.
