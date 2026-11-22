@@ -1,3 +1,8 @@
+## 0.8.64
+
+- Réorganisation du tableau de bord via une icône discrète en bas à droite. Les poignées apparaissent en bordure des tuiles, sans agrandir les cartes. La disposition enregistrée est conservée.
+- Tuiles Dernières analyses du bac raccourcies en plaçant le paramètre et sa mesure sur la même ligne quand la largeur le permet.
+
 ## 0.8.63
 
 - Tableau de bord réorganisable avec disposition enregistrée dans le navigateur.
