@@ -1,3 +1,9 @@
+## 0.8.66
+
+- Les curseurs des rampes appliquent leur valeur après une seconde. Le retour au planning apparaît pendant un forçage.
+- Les coins des groupes et des tuiles permettent de les redimensionner. Les dimensions et l’ordre sont conservés dans le navigateur.
+- Bordure verte dans la cible, compteurs près des analyses et section En retard masquée quand elle est vide. La conductivité tient sur une ligne.
+
 ## 0.8.65
 
 - Corrige les poignées de réorganisation sur mobile. Elles sont masquées à l’ouverture et restent superposées aux cartes en mode édition, sans ajouter de ligne. La disposition enregistrée est conservée.
