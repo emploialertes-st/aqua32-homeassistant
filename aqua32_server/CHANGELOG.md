@@ -1,3 +1,7 @@
+## 0.8.61
+
+- Galerie presque plein écran avec quatre graphiques en grille 2 × 2. Données et réglages conservés.
+
 ## 0.8.60
 
 - Tableau de bord sans photo ni titre « Aquarium · fiche principale ».
