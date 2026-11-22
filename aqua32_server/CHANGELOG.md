@@ -1,3 +1,10 @@
+## 0.8.67
+
+- Menu intégré à la barre : rubrique active contrastée, chevrons animés et panneaux à ouverture douce ; animations désactivées si la réduction des mouvements est demandée.
+- Équipements rassemble éclairages, filtration, noms et carte SD ; Vivant rassemble profil et espèces ; Eau accueille le conditionneur. Analyses : saisie avant historique ; changements : préparation, calculs, fiche puis réalisations.
+- Groupes explicites, sous-menus en accordéon, Échap ferme d’abord le sous-menu au clavier ; panneaux adaptés au téléphone et au tactile. Toutes les adresses existantes restent accessibles.
+- Mise à jour habituelle de l’application Home Assistant ; aucune migration, données et réglages conservés.
+
 ## 0.8.66
 
 - Les curseurs des rampes appliquent leur valeur après une seconde. Le retour au planning apparaît pendant un forçage.
@@ -603,3 +610,4 @@
 - Abonnements MQTT existants ; aucun pilotage ni publication.
 - Requêtes InfluxDB directes bornées et mises en cache.
 - Initialisation SQLite persistante sans import utilisateur.
+
