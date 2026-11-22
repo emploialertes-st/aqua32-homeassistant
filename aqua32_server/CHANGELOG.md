@@ -1,3 +1,10 @@
+## 0.8.60
+
+- Tableau de bord sans photo ni titre « Aquarium · fiche principale ».
+- Courbes empilées de température, pH et CO₂ estimé par défaut. Graphique classique toujours accessible.
+- Fenêtre de quatre vues : bande min/max à 5 min, courbes empilées, pH et horaires programmés des équipements, tendances des analyses sur huit semaines. Périodes et zoom disponibles.
+- Mise à jour habituelle avec conservation des données et des réglages.
+
 ## 0.8.59
 
 - Trois tuiles compactes dans Commandes. Les titres reprennent les noms configurés et les intensités confirmées restent visibles.
