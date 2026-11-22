@@ -1,3 +1,8 @@
+## 0.8.59
+
+- Trois tuiles compactes dans Commandes. Les titres reprennent les noms configurés et les intensités confirmées restent visibles.
+- Mise à jour habituelle avec conservation des données et des réglages.
+
 ## 0.8.58
 
 - Curseurs de 0 à 100 % pour les deux rampes sur le tableau de bord, avec application explicite et retour au programme.
