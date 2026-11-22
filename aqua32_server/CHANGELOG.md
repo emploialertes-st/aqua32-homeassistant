@@ -1,3 +1,9 @@
+## 0.8.62
+
+- Filtre commun des capteurs dans la galerie, fermé après application et à la fermeture de la galerie.
+- Double-clic sur un graphique pour l’agrandir ou revenir à la grille.
+- Correction de la lecture des tendances manuelles sur huit semaines. Les données existantes sont conservées.
+
 ## 0.8.61
 
 - Galerie presque plein écran avec quatre graphiques en grille 2 × 2. Données et réglages conservés.
