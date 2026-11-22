@@ -1,3 +1,9 @@
+## 0.8.63
+
+- Tableau de bord réorganisable avec disposition enregistrée dans le navigateur.
+- Tuiles de mesures et d’analyses plus compactes. Date d’en-tête et commandes de graphique redondantes retirées.
+- Axes chiffrés et repères temporels dans les graphiques agrandis. Les données existantes sont conservées.
+
 ## 0.8.62
 
 - Filtre commun des capteurs dans la galerie, fermé après application et à la fermeture de la galerie.
