@@ -1,3 +1,9 @@
+## 0.8.69
+
+- Corrige le bouton Entretiens des cartes Kanban : ouvre la rubrique repliée et y place le focus sans navigation vers l’accueil, même avec le préfixe Home Assistant Ingress.
+- Les liens de saisie d’analyses et d’enregistrement de changement restent accessibles. Aucune écriture au clic sur Entretiens.
+- Après mise à jour habituelle depuis Home Assistant, recharger le planning. Données et calendriers conservés, aucune migration.
+
 ## 0.8.68
 
 - Suspend les panneaux de conseils pendant la réorganisation du tableau de bord : le survol, le focus et le clic sur les poignées des analyses ne recouvrent plus la zone de déplacement. Les conseils reprennent à la sortie du mode édition.
@@ -617,5 +623,6 @@
 - Abonnements MQTT existants ; aucun pilotage ni publication.
 - Requêtes InfluxDB directes bornées et mises en cache.
 - Initialisation SQLite persistante sans import utilisateur.
+
 
 
