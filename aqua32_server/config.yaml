@@ -1,5 +1,5 @@
 name: Aqua32 Server
-version: 0.8.69
+version: 0.8.70
 slug: aqua32_server
 description: Suivi de l'aquarium et import vérifié des analyses dans SQLite
 arch:

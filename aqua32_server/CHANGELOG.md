@@ -1,3 +1,10 @@
+## 0.8.70
+
+- Dans Dernières analyses du bac, déposer une tuile sur le quart gauche ou droit d’une autre les place côte à côte dans les deux colonnes existantes, même après un agrandissement en pleine ligne. Hauteurs conservées, largeur et cellule enregistrées.
+- Double-cliquer sur la poignée ↘ (ou touche Début sur cette poignée) rétablit la taille initiale de la seule tuile sélectionnée. La conductivité conserve sa ligne entière pour préserver son libellé et sa valeur.
+- Synchronise l’ordre déplacé des analyses avec Paramètres → Apparence pour éviter sa remise en ordre au rechargement. Visibilité des analyses et données conservées.
+- Mise à jour habituelle Home Assistant après publication puis rechargement de la page. Aucune migration des données ni réinitialisation globale de la disposition.
+
 ## 0.8.69
 
 - Corrige le bouton Entretiens des cartes Kanban : ouvre la rubrique repliée et y place le focus sans navigation vers l’accueil, même avec le préfixe Home Assistant Ingress.
@@ -623,6 +630,7 @@
 - Abonnements MQTT existants ; aucun pilotage ni publication.
 - Requêtes InfluxDB directes bornées et mises en cache.
 - Initialisation SQLite persistante sans import utilisateur.
+
 
 
 
