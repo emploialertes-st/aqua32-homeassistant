@@ -1,3 +1,12 @@
+## 0.8.72
+
+Commentaires par masse filtrante : une ligne jusqu’à 500 caractères, commune aux opérations de nettoyage et remplacement, enregistrée explicitement sur le serveur. Bio-Bact A/B restent séparées. Photos agrandies au survol ; lignes Nettoyer bleues et Remplacer orange. Aucun changement des fréquences ou interventions ; données conservées.
+
+Les lignes de filtration distinguent Nettoyer (fond bleu) et Remplacer (fond orange), avec un repère coloré à gauche et les libellés conservés.
+
+- Filtration · Ciano CFBIO XL : aperçu des photos agrandi au survol de la souris et au focus clavier. L’aperçu reste dans la fenêtre et n’est pas coupé par le tableau défilant ; fermeture à la sortie, au défilement ou avec Échap.
+- Miniatures et formulaires conservent leur place. Données et planning de filtration inchangés. Mise à jour habituelle après publication, puis recharger la page.
+
 ## 0.8.70
 
 - Dans Dernières analyses du bac, déposer une tuile sur le quart gauche ou droit d’une autre les place côte à côte dans les deux colonnes existantes, même après un agrandissement en pleine ligne. Hauteurs conservées, largeur et cellule enregistrées.
@@ -630,6 +639,7 @@
 - Abonnements MQTT existants ; aucun pilotage ni publication.
 - Requêtes InfluxDB directes bornées et mises en cache.
 - Initialisation SQLite persistante sans import utilisateur.
+
 
 
 
