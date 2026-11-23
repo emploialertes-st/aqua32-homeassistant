@@ -1,3 +1,10 @@
+## 0.8.68
+
+- Suspend les panneaux de conseils pendant la réorganisation du tableau de bord : le survol, le focus et le clic sur les poignées des analyses ne recouvrent plus la zone de déplacement. Les conseils reprennent à la sortie du mode édition.
+- Corrige le glissement des tuiles empilées verticalement (Commandes) et entre les lignes d’une grille : le choix avant/après suit la disposition réelle, au lieu de toujours utiliser l’axe horizontal.
+- Déplacement des groupes, raccourcis clavier, redimensionnement et disposition enregistrée conservés. Test de non-régression ajouté aux contrôles automatiques.
+- Mise à jour habituelle depuis Home Assistant après publication, puis rechargement de la page. Aucune réinitialisation de disposition ni migration des données.
+
 ## 0.8.67
 
 - Menu intégré à la barre : rubrique active contrastée, chevrons animés et panneaux à ouverture douce ; animations désactivées si la réduction des mouvements est demandée.
@@ -610,4 +617,5 @@
 - Abonnements MQTT existants ; aucun pilotage ni publication.
 - Requêtes InfluxDB directes bornées et mises en cache.
 - Initialisation SQLite persistante sans import utilisateur.
+
 
