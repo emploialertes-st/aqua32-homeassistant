@@ -1,3 +1,15 @@
+## 0.9.0
+
+- Produits et consommables dans Paramètres : nom, catégorie, unité, concentration descriptive, dosage de référence, volume de calcul (robinet / renouvelé / bac), proposition facultative ou obligatoire, seuil de stock, archivage et commentaire.
+- Doses proposées conservées dans les nouveaux calculs et fiches. Quantités réelles validées avant enregistrement d’un changement d’eau. Un ajout obligatoire manquant ou un stock suivi insuffisant annule toute la transaction. Le conditionneur existant est conservé ; sa gestion peut être reprise explicitement dans le catalogue.
+- Stocks et achats : quantités, prix total en euros, fournisseur, date et note. Sorties manuelles et ajouts validés décrémentent uniquement les produits dont le suivi est activé. Coût FIFO au centime ; prix inconnus distingués de zéro. Pas de déduction automatique lors d’une intervention de filtration.
+- Bilan : achats, quantités réellement ajoutées, coûts connus, montants incomplets et historique lié aux changements d’eau ou aux ajouts manuels ; filtre de période et export CSV. Les anciennes confirmations du conditionneur restent identifiées comme doses théoriques historiques.
+- Recommandations d’entretien : fréquences indicatives sourcées ou repères Aqua32, contexte stabilisé / démarrage, fréquences personnelles et création explicite d’un rappel dans le planning. Aucun rappel ni réglage de bac modifié automatiquement.
+- Confirmation avant envoi de l’intensité de chaque rampe et avant sauvegarde de son intensité maximale dans les horaires. Annuler le curseur rétablit le dernier retour confirmé sans envoyer de commande.
+- Réorganisation des analyses : action « 2 tuiles par ligne », retour à la disposition initiale limité aux analyses, dépôt latéral aussi disponible pour la conductivité et prise en compte des espaces entre tuiles. Les compteurs suivent les cartes affichées ; les analyses masquées sont signalées et réaffichables.
+- Mise à jour habituelle depuis Home Assistant après fusion et publication, puis rechargement de la page. Conserver le volume /data et les sauvegardes Home Assistant. Les ajouts, achats et réglages utilisent la base SQLite existante ; aucune réécriture des anciens rapports, aucun stock initial ou prix inventé, aucune nouvelle écriture MQTT ou InfluxDB.
+- Validation : tests x64, transactions SQLite, HTTP local, moteur métier et JavaScript. Le rendu et le geste réels dans Home Assistant et le build aarch64 restent à contrôler.
+
 ## 0.8.72
 
 Commentaires par masse filtrante : une ligne jusqu’à 500 caractères, commune aux opérations de nettoyage et remplacement, enregistrée explicitement sur le serveur. Bio-Bact A/B restent séparées. Photos agrandies au survol ; lignes Nettoyer bleues et Remplacer orange. Aucun changement des fréquences ou interventions ; données conservées.
@@ -639,6 +651,7 @@ Les lignes de filtration distinguent Nettoyer (fond bleu) et Remplacer (fond ora
 - Abonnements MQTT existants ; aucun pilotage ni publication.
 - Requêtes InfluxDB directes bornées et mises en cache.
 - Initialisation SQLite persistante sans import utilisateur.
+
 
 
 
