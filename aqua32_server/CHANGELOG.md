@@ -1,3 +1,16 @@
+## 0.10.0
+
+- Tableau de bord : « À réaliser », sous-sections Aujourd’hui / En retard uniquement si elles contiennent des tâches ; aucun message vide.
+- Tailles de tuiles uniformes par défaut dans les blocs ; hauteur et largeur réglables et mémorisées. Une hauteur réduite conserve le contenu par défilement.
+- Produits : commentaires multiligne, dosage conditionnel selon le pH avec seuils inclus dans la tranche centrale, et règles JBL pH-Minus à reprendre explicitement.
+- Calcul : milieu des fourchettes visé par défaut dans l’interface, optimisation des écarts relatifs si les milieux ne sont pas conjointement atteignables, sans sortir des bornes. Compatibilité du moteur historique conservée pour les anciens appelants sans stratégie.
+- Option acidifiant désactivée par défaut ; si elle est activée et que les conditions sont exploitables, prise en compte du KH minimal connu avant produit. Possibilité de désactiver et recalculer sans cette contrainte.
+- Référence pH automatique : médiane d’une heure stable récente issue de l’historique, avec couverture et perturbations vérifiées. Ce n’est pas un pH corrigé du CO₂ ; aucun historique confirmé de l’électrovanne n’est inventé.
+- Acidifiants : absence de proposition si historique 24 h incomplet, pH descendu sous le seuil bas ou KH mesuré récent insuffisant. Effet du produit sur le KH inconnu : aucun KH après traitement ni compensation arbitraire du mélange garantis.
+- Simulation mélange et températures sans aucune écriture SQLite, sans historique, stock, bilan ni planning modifiés.
+- Quantité réelle modifiable lors de la confirmation ; dose proposée et contexte conservés pour comparaison et études ultérieures. Pas de modèle d’apprentissage chimique activé dans cette version.
+- Mise à jour : aucune nouvelle option Home Assistant, aucun recalcul des anciens rapports. Les nouveaux champs sont conservés avec les nouveaux calculs dans SQLite ; les dispositions personnalisées existantes restent disponibles.
+
 ## 0.9.0
 
 - Produits et consommables dans Paramètres : nom, catégorie, unité, concentration descriptive, dosage de référence, volume de calcul (robinet / renouvelé / bac), proposition facultative ou obligatoire, seuil de stock, archivage et commentaire.
