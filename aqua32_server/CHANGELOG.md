@@ -1,3 +1,12 @@
+## 0.10.1
+
+- Tuiles : empilement indépendant par colonne après redimensionnement en hauteur ; suppression des bandes vides dues aux rangées communes. Les boîtes réelles réservent leur place sans chevauchement.
+- Dimensions, ordre, choix de colonne et visibilité existants conservés. Tailles initiales uniformes par bloc ; les grandes tuiles restent des séparations sur toute la largeur.
+- Conductivité : titre à gauche et valeur/unité contre le bord droit intérieur sur la même ligne. Dans une tuile trop étroite, le titre est abrégé visuellement plutôt que de chevaucher la valeur.
+- À réaliser : cartes Aujourd’hui et En retard compactes, hauteur ajustée au contenu, marges de section et minimum de 100 px retirés.
+- Vérifications : placement, glisser-déposer et test Chromium de géométrie hors ligne (hauteurs, masquage, largeur, alignement et tâches).
+- Mise à jour : aucune migration des analyses ni du stock. Aucune nouvelle option Home Assistant ; dispositions personnalisées conservées.
+
 ## 0.10.0
 
 - Tableau de bord : « À réaliser », sous-sections Aujourd’hui / En retard uniquement si elles contiennent des tâches ; aucun message vide.
