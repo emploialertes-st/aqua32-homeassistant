@@ -1,3 +1,12 @@
+## 0.10.3
+
+- Organisation : une barre compacte avec deux modes distincts, Déplacer les groupes et Organiser les tuiles. Les poignées de tuiles sont limitées au groupe choisi ; seuls les réglages de la carte sélectionnée apparaissent.
+- Colonnes : intitulé et choix de une ou deux places directement au-dessus de chaque colonne, sans grandes bandes de commandes séparées. Jusqu’à trois commandes côte à côte conservées.
+- Déplacement : aperçu de destination visible, annulation du glissement avec Échap et défilement de page près des bords. Les groupes affichent leur contenu sans défilement interne pendant l’organisation ; les hauteurs personnalisées restent utilisées en affichage normal.
+- Validation : les modifications restent en aperçu jusqu’à Appliquer. Annuler restaure la disposition à l’ouverture. La disposition par défaut est proposée en aperçu et conserve la visibilité des analyses.
+- Vérifications : transactions de disposition, glisser-déposer, clavier, anciennes dispositions et rendu Chromium hors ligne, dont application, annulation, graphique, rechargement et petits écrans.
+- Mise à jour : recharger la page. Aucune migration de base, aucune commande matérielle supplémentaire ; dispositions et sélections existantes conservées dans le navigateur.
+
 ## 0.10.2
 
 - Espacement minimal de 4 px entre les tuiles, commandes et groupes, y compris après redimensionnement et déplacement ; les hauteurs restent indépendantes.
