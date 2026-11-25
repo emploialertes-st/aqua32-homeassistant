@@ -1,3 +1,11 @@
+## 0.10.2
+
+- Espacement minimal de 4 px entre les tuiles, commandes et groupes, y compris après redimensionnement et déplacement ; les hauteurs restent indépendantes.
+- Commandes : choix de une à trois colonnes dans le mode Réorganiser, avec réduction automatique du nombre de colonnes sur les petits écrans.
+- Groupes : deux groupes côte à côte possibles dans chacune des trois zones ; disposition et tailles mémorisées dans le navigateur.
+- Graphique : largeur et hauteur réglables avec la poignée, tracé adapté automatiquement à la surface disponible.
+- Mise à jour : recharger la page ; aucune migration ni remise à zéro des données, sélections ou dispositions existantes. Aucune commande matérielle supplémentaire.
+
 ## 0.10.1
 
 - Tuiles : empilement indépendant par colonne après redimensionnement en hauteur ; suppression des bandes vides dues aux rangées communes. Les boîtes réelles réservent leur place sans chevauchement.
