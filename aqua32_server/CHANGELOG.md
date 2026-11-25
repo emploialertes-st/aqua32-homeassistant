@@ -1,3 +1,11 @@
+## 0.10.4
+
+- Tuiles : retour au redimensionnement direct en tirant le coin ↘ à la souris, en largeur et en hauteur. Poignées immédiatement visibles pour le groupe choisi ; suppression des champs numériques et de la case Toute la largeur. Double-clic ou touche Début sur la poignée : taille initiale.
+- À réaliser : de une à trois colonnes réglables pour Aujourd’hui et En retard, adaptation à la largeur disponible et étirement individuel des cartes de tâches. Les actualisations réutilisent les cartes pour ne pas interrompre le glissement ; dimensions et colonnes mémorisées.
+- Commande CO₂ : contenu aligné en haut de la tuile, comme celui des rampes.
+- Graphiques : ligne verticale et valeurs proches du pointeur, unités et date réelle des points, affichage des données absentes sans interpolation, repli du cartouche au bord du graphique et disparition à la sortie. Suivi, galerie, analyses, statistiques, énergie et cyclage couverts ; zoom et défilement conservés.
+- Mise à jour : recharger la page. Dispositions existantes et analyses masquées conservées, Appliquer/Annuler restent disponibles. Aucune migration de base ni commande matérielle supplémentaire.
+
 ## 0.10.3
 
 - Organisation : une barre compacte avec deux modes distincts, Déplacer les groupes et Organiser les tuiles. Les poignées de tuiles sont limitées au groupe choisi ; seuls les réglages de la carte sélectionnée apparaissent.
