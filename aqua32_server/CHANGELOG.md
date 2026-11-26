@@ -1,3 +1,12 @@
+## 0.11.7
+
+- Bibliothèque : importer par blocs de 256 Kio, sans requête contenant le PDF entier. Validation finale transactionnelle et contrôle des tailles ; un import partiel ne devient jamais un document visible. Nettoyage des imports abandonnés après une heure, quotas maintenus.
+- Import : afficher une erreur HTTP claire lorsque le proxy retourne du HTML ; conserver uniquement les fichiers échoués pour réessayer. Finalisation répétable sans doublon après une réponse perdue.
+- Aquatest JBL : conserver un sélecteur et une action « Réaliser le test » lorsque les onglets sont masqués dans Apparence. Préserver navigation, ordre, visibilité des tests et minuteurs simultanés. Ne plus écraser le message lorsqu’aucun test n’est sélectionné.
+- Tableau de bord : afficher les réglages « Personnaliser » directement sous les raccourcis de période, hors du graphique classique replié.
+- Planning : afficher les rappels JBL déjà ajoutés, permettre de les retirer individuellement ou tous ensemble, y compris le dernier. Conserver les autres interventions et l’historique des réalisations.
+- Recharger la page après mise à jour. Documents, mesures, dosages, dispositions et réglages existants conservés ; aucun changement automatique des rappels. Pas de migration des données utilisateur. Les tests x64 ne valident pas l’image aarch64 ni le proxy de l’installation Home Assistant.
+
 ## 0.11.6
 
 - Largeur minimale : prendre en compte les mots réellement affichés, la police, le bouton, les marges et les bordures pour empêcher le nom d’une commande ou d’une tâche de toucher son action.
