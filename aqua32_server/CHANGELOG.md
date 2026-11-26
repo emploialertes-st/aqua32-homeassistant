@@ -1,3 +1,12 @@
+## 0.14.0
+
+- Atlas local : catalogue repliable, photos mises en avant et caractéristiques et conditions Flowgrow à droite sur écran large. Description et sources en dessous.
+- Export : impression ou enregistrement en PDF d’une fiche ou de tout l’Atlas depuis le navigateur, avec un titre personnalisable. Les titres des photos sont éditables et conservés dans SQLite.
+- Profil du bac : entrée de menu unique et liens directs vers les fiches Atlas.
+- Éclairage : onglets à icônes pour les deux rampes et la prise auxiliaire. L’entrée Éclairages et horaires ouvre directement la page.
+- Retrait de la page Mise à jour du firmware et de ses routes dans Aqua32 Server. La mise à jour de l’application reste disponible dans Home Assistant.
+- Recharger le navigateur après mise à jour. Les fiches, photos, analyses et réglages existants sont conservés.
+
 ## 0.13.1
 
 - Le vivant et les propositions de cibles liées aux espèces utilisent exclusivement les fiches Atlas sélectionnées. L’éditeur de fiches du profil et la copie des anciennes fiches vers l’Atlas sont retirés.
