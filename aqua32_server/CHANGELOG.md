@@ -1,3 +1,56 @@
+## 0.11.6
+
+- Largeur minimale : prendre en compte les mots réellement affichés, la police, le bouton, les marges et les bordures pour empêcher le nom d’une commande ou d’une tâche de toucher son action.
+- Petits écrans : permettre le retour à la ligne dans un libellé trop long lorsque la colonne ne peut plus s’élargir, sans masquer le contenu ni créer de barre interne.
+- Recharger la page ; documents, mesures, dispositions et réglages conservés.
+
+## 0.11.5
+
+- Largeur minimale des commandes et tâches : mesurer les colonnes de texte et de bouton séparément pour réserver leur place, même avec un libellé plus long.
+- Vérification des menus déroulants : utiliser les métriques de la police lorsque le navigateur conserve une hauteur de ligne native « normale ». Contrôler l’espace réellement disponible pour le texte.
+- Recharger la page ; réglages, documents, minuteurs et analyses conservés.
+
+## 0.11.4
+
+- Tailles minimales : remise à zéro locale des variables de hauteur avant mesure. Éviter qu’une tuile hérite du minimum de son groupe et amplifie la hauteur de la colonne à chaque actualisation. Étirement à partir de la taille réellement affichée, y compris après une réduction limitée par le contenu.
+- Aquatest et bibliothèque : navigation compatible avec les onglets déplacés dans l’en-tête fixe ; maintien de leur identité et de leurs interactions après chargement asynchrone.
+- Retour navigateur : relire les minuteurs et les brouillons lors d’une restauration depuis le cache de navigation, afin de conserver les ajouts et suppressions effectués sur la page précédente.
+- Vérifications : croissance bornée des groupes, étirement à la souris, absence de défilement interne et de chevauchement, onglets déplacés, saisies et délais conservés.
+- Recharger la page ; aucune remise à zéro des documents, analyses, rappels ou commandes.
+
+## 0.11.3
+
+- Organisation : largeur lisible du choix de groupe et contrôle détaillé du placement des poignées.
+- Validation navigateur : encodage UTF-8 des pages de test comme en production, chargement des styles communs, contrôle des conseils JBL et ajout d’un test supplémentaire au planning. Les deux parcours navigateur restent indépendants et bloquants.
+- Recharger la page ; aucune modification des données ou fichiers conservés.
+
+## 0.11.2
+
+- Aquatest : pastilles de couleur sur les onglets, en conservant l’apparence commune et l’état actif ; masquage des tests désactivés sauf minuteur encore en cours. Précisions de rédaction pour les étapes CO₂ Direct et Pond Check.
+- Vérification Chromium : exécuter les deux parcours indépendants, même si l’un échoue, et détailler les dimensions des titres de groupes pour corriger tout conflit de poignée. Aucune suppression de contrôle.
+- Recharger la page ; documents, réglages, dispositions et échéances conservés.
+
+## 0.11.1
+
+- Organisation : espace réservé au-dessus des titres de groupes et minima du graphique en mode édition ; contrôle de toutes les tuiles réduites au minimum, absence de chevauchement et lisibilité des listes.
+- Brouillons : préserver les étapes non reprises lorsqu’une autre saisie est modifiée après navigation ; conserver le contexte et la précision des volumes restaurés. Encarts compacts indépendants des styles de la page.
+- Minuteurs : démarrer l’échéance immédiatement, même en cas de refus du signal sonore ; activation audio bornée et avertissement explicite.
+- Bibliothèque et plaquettes : lecture PDF intégrée avec la visionneuse du navigateur et lien d’ouverture. Les cartes de volumes utilisent deux décimales.
+- Contrôles supplémentaires : parcours navigateur des brouillons, minuteurs, configuration, import/agrandissement de plaquette et bibliothèque PDF/photos. Import et relecture exacte d’un PDF JBL de 32 Mo vérifiés dans une base temporaire, sans ajout dans les données utilisateur.
+- Recharger la page. Conservation des données, fichiers, préférences et rappels existants ; aucune action matérielle ajoutée.
+
+## 0.11.0
+
+- Aquatest JBL : 24 fiches (réactifs, eau douce/marine, Pond Check, CO₂ permanent, EASY 7in1 et PROSCAN), étapes, prélèvements, réactifs, attentes, conseils et fréquences. Navigation par onglets ; ordre, visibilité et couleurs modifiables dans Configuration Aquatest. Références des notices détaillées et du guide français V02 de février 2022 indiquées ; les divergences de durée sont signalées.
+- Minuteurs indépendants par étape, conservés dans l’onglet du navigateur pendant les changements de page et les rechargements ; onglet clignotant à échéance, acquittement et signal sonore à activer. Réactiver le son après navigation complète. Un navigateur fermé ou suspendu ne garantit pas l’alarme.
+- Plaquettes : import, aperçu, agrandissement, remplacement et suppression par test (PNG/JPEG/WebP/PDF, 2 Mio). Les nuanciers officiels non disponibles au téléchargement restent à importer ; aucune couleur de mesure n’est recréée. L’écran ne remplace pas le comparateur papier.
+- Fréquence des mesures : conseils JBL dans le calendrier existant et tests supplémentaires avec cadence personnalisable / première échéance, ajout explicite au planning. Pas de cadence inventée quand JBL n’en indique pas. Jusqu’à 64 interventions pour accueillir les tests et les entretiens existants ; aucun rappel ajouté automatiquement.
+- Bibliothèque PDF et photos : import multiple, consultation, agrandissement, renommage et suppression. Formats PDF/JPEG/PNG/WebP, 40 Mio par fichier, 250 fichiers et 500 Mio au total. Fichiers conservés dans une table SQLite dédiée, incluse dans la sauvegarde complète du fichier de base ; les exports d’analyses seuls ne contiennent pas ces documents.
+- Tableau de bord : menus déroulants lisibles, commandes compactes, minima de largeur et hauteur calculés sur le contenu pour bloquer la réduction avant une barre de défilement ; espacement de 4 px conservé. Les anciennes hauteurs de commandes sont compactées ; les nouveaux étirements explicites restent mémorisés.
+- Brouillons : encart flottant en bas à droite uniquement avec des saisies conservées, aperçu au survol/focus ou au clic, reprise explicite après navigation. Supprimer retire le brouillon ; un enregistrement confirmé retire uniquement les données utilisées. Les échecs et simulations conservent le brouillon.
+- Volumes : deux décimales à l’affichage et dans les champs de préparation thermique ; précision du calcul initial conservée tant que le volume affiché n’est pas modifié.
+- Mise à jour : recharger la page. Données existantes préservées, table de bibliothèque créée à sa première utilisation ; conserver une sauvegarde SQLite complète. Aucune commande matérielle ou écriture InfluxDB ajoutée. Contrôles x64 ; image aarch64 et matériel à valider sur installation.
+
 ## 0.10.4
 
 - Tuiles : retour au redimensionnement direct en tirant le coin ↘ à la souris, en largeur et en hauteur. Poignées immédiatement visibles pour le groupe choisi ; suppression des champs numériques et de la case Toute la largeur. Double-clic ou touche Début sur la poignée : taille initiale.
