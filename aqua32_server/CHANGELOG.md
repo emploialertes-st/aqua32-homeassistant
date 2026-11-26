@@ -1,3 +1,15 @@
+## 0.12.0
+
+- Aquatest JBL : véritables onglets de tests toujours accessibles, y compris lorsque les onglets généraux sont masqués. Couleur de chaque test avec texte contrasté, temps restant, clignotement à échéance et signal sonore après activation. Ordre, visibilité et minuteurs simultanés conservés ; suppression du sélecteur de secours.
+- Bibliothèque : titre personnalisé par document dès l’import, modifiable ensuite ; nom du fichier conservé séparément. Les anciens documents utilisent leur nom enregistré tant qu’aucun titre n’est choisi. Tuiles avec métadonnées distinctes et actions alignées : consulter, renommer, supprimer.
+- Consultation des documents : fenêtre adaptée au viewport, en-tête et fermeture accessibles, image ajustée et PDF occupant l’espace disponible. Pas de défilement externe superposé au lecteur ; le défilement nécessaire à la lecture du PDF reste disponible.
+- Produits : commentaires/descriptifs de 10 000 caractères, retours à la ligne conservés, compteur à la saisie et intitulé Commentaire/Descriptif.
+- Changements d’eau : retirer les flèches des champs numériques tout en conservant saisie manuelle et validation native. Supprimer directement un calcul ou un changement depuis la liste des fiches, avec confirmation explicite des effets et conservation des analyses indépendantes.
+- Entretiens du planning : miniature près du nom et de la fréquence ; agrandissement au survol, au focus et au toucher. Recommandations : lecture et réglages séparés, contrôles alignés et adaptation aux petits écrans. Espacement des actions dans les pages concernées.
+- Atlas : flèches entre fiches de la sélection filtrée, y compris aux limites des pages ; bouton Wikipédia aux mêmes dimensions et typographie que les autres actions.
+- Retirer la page Carte SD et ses entrées de navigation/diagnostic de l’interface serveur. Les protocoles et commandes du firmware ne sont pas modifiés.
+- Recharger les pages après mise à jour. Documents, octets des fichiers, analyses, historiques, stocks et dispositions conservés. Les titres sont des métadonnées SQLite séparées ; aucune suppression automatique des données existantes. Le lot 3 n’est pas inclus.
+
 ## 0.11.7
 
 - Bibliothèque : importer par blocs de 256 Kio, sans requête contenant le PDF entier. Validation finale transactionnelle et contrôle des tailles ; un import partiel ne devient jamais un document visible. Nettoyage des imports abandonnés après une heure, quotas maintenus.
