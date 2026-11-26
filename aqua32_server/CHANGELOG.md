@@ -1,3 +1,16 @@
+## 0.13.1
+
+- Le vivant et les propositions de cibles liées aux espèces utilisent exclusivement les fiches Atlas sélectionnées. L’éditeur de fiches du profil et la copie des anciennes fiches vers l’Atlas sont retirés.
+- Recharger les pages après mise à jour. Les anciennes fiches restent dans le profil SQLite et les sauvegardes de configuration. Les fiches Atlas déjà copiées ou personnalisées et leurs sélections sont conservées.
+
+## 0.13.0
+
+- Changements d’eau : contrôles des litres et pourcentages dans le formulaire et à l’enregistrement. Un écart avec le profil ou un renouvellement intégral donne un avertissement. Les saisies manuelles restent modifiables sans flèches ni arrondi à la sortie du champ.
+- Conditionneur : réglages, propositions et validation dans Produits, consommables et coûts. Les confirmations historiques restent consultables et les ajouts validés sont enregistrés avec le changement d’eau dans SQLite.
+- Planning : semaine type éditable du lundi au dimanche. La validation des jours garde l’ancrage, la répétition, l’heure existante, les mesures et les réalisations.
+- Profil du bac : les plantes et poissons sélectionnés dans l’Atlas alimentent la rubrique Vivant dans le bac. Le raccourci qui générait six fiches est retiré ; toutes les fiches et personnalisations existantes sont conservées.
+- Après mise à jour, recharger les pages. Aucun nettoyage ou transfert de données automatique.
+
 ## 0.12.0
 
 - Aquatest JBL : véritables onglets de tests toujours accessibles, y compris lorsque les onglets généraux sont masqués. Couleur de chaque test avec texte contrasté, temps restant, clignotement à échéance et signal sonore après activation. Ordre, visibilité et minuteurs simultanés conservés ; suppression du sélecteur de secours.
