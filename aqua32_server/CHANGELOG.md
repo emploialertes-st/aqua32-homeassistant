@@ -1,3 +1,9 @@
+## 0.15.0
+
+- Composition paramétrable des engrais liquides et préréglage Tropica Specialised Nutrition.
+- Dose proposée sur le volume net du bac et bilan des apports après calcul du mélange, puis selon les quantités confirmées.
+- Après la mise à jour, recharger les pages. Les fiches et rapports existants sont conservés.
+
 ## 0.14.0
 
 - Atlas local : catalogue repliable, photos mises en avant et caractéristiques et conditions Flowgrow à droite sur écran large. Description et sources en dessous.
